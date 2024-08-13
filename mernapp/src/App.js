@@ -1,14 +1,13 @@
-import './App.css';
-import Home from './Screen/Home';
-import Footer from './components/Footer';
+import "./App.css";
+import Home from "./Screen/Home";
 
 function App() {
   return (
-   <div>
-    <div><Home/></div>
-    <div>body</div>
-    <div><Footer/></div>
-   </div>
+    <div>
+      <div>
+        <Home />
+      </div>
+    </div>
   );
 }
 
